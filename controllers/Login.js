@@ -2,9 +2,6 @@ import bcrypt from "bcrypt";
 import User from "../mongodb/models/user.js";
 import dotenv from "dotenv";
 import jwt from "jsonwebtoken";
-import path from "path";
-import { fileURLToPath } from "url";
-import pug from 'pug';
 
 dotenv.config();
 

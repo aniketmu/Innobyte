@@ -1,4 +1,3 @@
-import User from "../mongodb/models/user.js";
 import Token from "../mongodb/models/token.js";
 import path from "path";
 import { fileURLToPath } from "url";
